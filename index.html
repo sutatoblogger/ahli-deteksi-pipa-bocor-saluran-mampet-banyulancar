@@ -29,75 +29,77 @@
     <meta property="og:image" content="https://banyulancar.com/assets/hero-plumbing-elit-depok.webp">
     <meta property="og:site_name" content="Banyu Lancar Plumbing">
 
-    <!-- JSON-LD SEO MOTHERSHIP ZERO COLLISION (FIXED WARNING) -->
+    <!-- JSON-LD 1: ENTITAS BISNIS LOKAL (LocalBusiness) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@graph": [
+      "@type": "PlumbingService",
+      "@id": "https://ahli-deteksi-pipa-bocor-saluran-mampet-banyulancar.vercel.app/#organization",
+      "name": "BANYU LANCAR PLUMBING",
+      "url": "https://ahli-deteksi-pipa-bocor-saluran-mampet-banyulancar.vercel.app/",
+      "image": [
+        "https://ahli-deteksi-pipa-bocor-saluran-mampet-banyulancar.vercel.app/assets/hero-plumbing-elit-depok.webp"
+      ],
+      "logo": "https://ahli-deteksi-pipa-bocor-saluran-mampet-banyulancar.vercel.app/assets/hero-plumbing-elit-depok.webp",
+      "telephone": "+6289675453663",
+      "priceRange": "Rp300.000 - Rp1.500.000",
+      "description": "Spesialis jasa saluran mampet tanpa bongkar & deteksi pipa bocor menggunakan alat acoustic leak detector di Kota Depok.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jl. H.M. Nasir, Gandul",
+        "addressLocality": "Kec. Cinere, Kota Depok",
+        "addressRegion": "Jawa Barat",
+        "postalCode": "16514",
+        "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -6.3374325,
+        "longitude": 106.7961481
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Kota Depok" },
+        { "@type": "City", "name": "Margonda" },
+        { "@type": "City", "name": "Cinere" }
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5",
+        "worstRating": "1",
+        "reviewCount": "218"
+      }
+    }
+    </script>
+
+    <!-- JSON-LD 2: FAQ PAGE (Terpisah agar GSC langsung mendeteksi) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://ahli-deteksi-pipa-bocor-saluran-mampet-banyulancar.vercel.app/#faq",
+      "mainEntity": [
         {
-          "@type": "PlumbingService",
-          "@id": "https://ahli-deteksi-pipa-bocor-saluran-mampet-banyulancar.vercel.app/#organization",
-          "name": "BANYU LANCAR PLUMBING",
-          "url": "https://ahli-deteksi-pipa-bocor-saluran-mampet-banyulancar.vercel.app/",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://ahli-deteksi-pipa-bocor-saluran-mampet-banyulancar.vercel.app/assets/hero-plumbing-elit-depok.webp"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://ahli-deteksi-pipa-bocor-saluran-mampet-banyulancar.vercel.app/assets/hero-plumbing-elit-depok.webp"
-          },
-          "telephone": "+6289675453663",
-          "priceRange": "Rp300.000 - Rp1.500.000",
-          "description": "Spesialis jasa saluran mampet tanpa bongkar & deteksi pipa bocor menggunakan alat acoustic leak detector di Kota Depok. Melayani perumahan elit Margonda, Cinere, dan sekitarnya.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Jl. H.M. Nasir, Gandul",
-            "addressLocality": "Kec. Cinere, Kota Depok",
-            "addressRegion": "Jawa Barat",
-            "postalCode": "16514",
-            "addressCountry": "ID"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": -6.3374325,
-            "longitude": 106.7961481
-          },
-          "hasMap": "https://maps.app.goo.gl/Ux77DGVHv4mtzEGYA",
-          "areaServed": ["Kota Depok", "Margonda", "Cimanggis", "Cinere", "Sawangan", "Kukusan", "Beji", "Sukmajaya", "Pancoran Mas", "Cilodong", "Limo", "Cipayung", "Tapos", "Cisalak", "Mekarjaya", "Pondok Labu"],
-          "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-            "opens": "00:00",
-            "closes": "23:59"
-          },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "218"
+          "@type": "Question",
+          "name": "Mengapa tagihan PDAM saya naik signifikan padahal tidak ada pemakaian berlebih?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tagihan air yang melonjak atau water meter yang terus berputar adalah indikasi kuat adanya pipa bocor tersembunyi di dalam tembok atau bawah lantai. Banyu Lancar menggunakan detektor akustik untuk melacaknya tanpa bongkar keramik acak."
           }
         },
         {
-          "@type": "FAQPage",
-          "@id": "https://ahli-deteksi-pipa-bocor-saluran-mampet-banyulancar.vercel.app/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Mengapa tagihan PDAM saya naik signifikan padahal tidak ada pemakaian berlebih?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Tagihan air yang melonjak atau water meter yang terus berputar adalah indikasi kuat adanya pipa bocor tersembunyi di dalam tembok atau bawah lantai. Banyu Lancar menggunakan detektor akustik untuk melacaknya tanpa bongkar keramik acak."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Apakah perbaikan saluran mampet harus membongkar lantai?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Tidak. Untuk saluran mampet kami menggunakan mesin Rooter spiral baja tanpa bongkar yang aman untuk interior elit rumah Anda."
-              }
-            }
-          ]
+          "@type": "Question",
+          "name": "Apakah perbaikan saluran mampet harus membongkar lantai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tidak. Untuk saluran mampet kami menggunakan mesin Rooter spiral baja tanpa bongkar yang aman untuk interior elit rumah Anda."
+          }
         }
       ]
     }
